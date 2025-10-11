@@ -18,5 +18,79 @@ button{
     color: white;
 }
 
-/*Otro tipo de selector es el de clase y se ocupa cuando se requieren estilos diferentes*/
+/*Otro tipo de selector es el de clase y se ocupa cuando se requieren estilos diferentes
 
+.clase {}
+*/
+
+.bg-cornflowerblue{
+    background-color: cornflowerblue;
+}
+
+.bg-yellowgreen{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-32{
+    font-size: 32px;
+}
+
+.bg-Blue{
+    background-color: dodgerblue;
+}
+
+.text-white{
+    color: white;
+}
+
+.border-radius-5{
+    border-radius: 5px;
+}
+
+.padding-5{
+    padding: 5px;
+}
+
+.caja{
+    width: 200px;
+    height: 150px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.line-height{
+    line-height: 15px;
+}
+
+/*Uso de colores
+
+1. Usar colores por el nombre*/
+
+.color-by-name{
+    background-color: coral;
+    color: rebeccapurple;
+    border: thick solid greenyellow;
+}
+
+/*Uso de colores utilizando el sistema hexadecimal*/
+
+.color-hex{
+    background-color: #FF7F50;
+    color: #663399;
+    border: thick solid #9ACD32;
+}
+
+/*Uso de colores utilizando el formato RGB*/
+
+.color-RGB{
+    background-color: rgb(255, 127, 80);
+    color: rgb(102, 51, 153);
+    border: thick solid rgb(173, 255, 47);
+}
