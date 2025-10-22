@@ -2,15 +2,19 @@
 <html>
     <header>
         <title>Mi Sitio Web</title>
+        <link rel="stylesheet" href="Style.css">
     </header>
 </html>
 <body>
+    <main>
     <div class="encabezado">
         <h1>Mi sitio web</h1>
+        <div class="busqueda">
         <input type="text" placeholder="Busquemos...">
         <button type="button">Buscar</button>
+        </div>
     </div>
-    <div>
+    <div class="navbar">
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -22,14 +26,14 @@
             </ul>
         </nav>
     </div>
-    <main>
+    <div>
         <div class="cuerpo">
             <h2>Lorem ipsum dolor sit, amet.</h2>
             <img src="Imagenes/post.jpg" alt="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sunt velit corrupti natus temporibus delectus repudiandae commodi? Omnis beatae iste officiis veritatis, reiciendis aperiam praesentium quas odit aliquid repellendus atque.</p>
         </div>
         <div class="menu">
-            <h2>Subscribete aquí</h2>
+            <h2 class="titulo">Subscribete aquí</h2>
             <div class="subs">
                 <img src="Imagenes/mifoto.gif" alt="" class="item">
                 <div class="item">
@@ -42,7 +46,7 @@
                 </div>
             </div>
             <div>
-                <h2>Categorias</h2>
+                <h2 class="titulo">Categorias</h2>
                 <div>
                     <a href="">Categoría 1</a>
                     <a href="">Categoría 2</a>
@@ -51,6 +55,10 @@
                     <a href="">Categoría 5</a>
                 </div>
             </div>
+            <div>
+                <h2 class="titulo">Archivo</h2>
+            </div>
         </div>
+    </div>
     </main>
 </body>
