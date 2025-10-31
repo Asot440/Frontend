@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 0%;
+    padding: 15px;
+
+}
+
+.articulos{
+    display: flex;
+    background-color: aqua;
+    color: black;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 6px solid white;
+    width: 700px;
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    height: auto;
+    width: auto;
+    margin: 1%;
+    font-size: auto;
+    padding: 1% 5%;
+}
+
+.blush{
+    font-size: 20px;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0px 10px 0px;
+}
+
+.cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.caja{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+}
+
+.agregar{
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.bbh-sans-hegarty-regular {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-de-sas {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}

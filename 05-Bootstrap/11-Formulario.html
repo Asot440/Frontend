@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Formulario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </header>
+    <body>
+        <form>
+        <div class="container-fluid">
+            <div class="form-group">
+                <label>Correo electronico:</label>
+                <input type="email" id="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Contraseña:</label>
+                <input type="password" id="pass" class="form-control">
+            </div>
+
+            <h2>Ejemplo de una caja tipo grande (large)</h2>
+            <div class="form-group">
+                <label>Calle:</label>
+                <input type="text" id="calle" class="form-control form-control-lg">
+            </div>
+
+            <div class="form-group">
+                <label>Selecciona un dominio:</label>
+                <select class="form-control" id="lista">
+                    <option>Edificios</option>
+                    <option>Corporativo</option>
+                    <option>Sucursales</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label>Comentarios</label>
+                <textarea class="form-control" id="comentario"></textarea>
+            </div>
+
+            <div class="form-control">
+                <label>Selecciona un archivo</label>
+                <input type="file" id="archivo" class="form-control-file">
+            </div>
+            <br>
+            <div class="row g-3">
+                <div class="col-auto">
+                    <label>Usuario</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-auto">
+                    <span id="ayuda" class="form-text">
+                        Su usuario debe contener minimo 8 caracteres.
+                    </span>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-sm-2">
+                    <label>Ciudad</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Ingresa Ciudad">
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <button class="btn btn-success">Registrar</button>
+            <button class="btn btn-warning">Cancelar</button>
+        </div>
+        </form>
+        <br><br>
+
+        <form>
+        <div class="form-group">
+            <div class="row g-3">
+                <div class="col-2">
+                    <label>Nombre: </label>
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-2">
+                    <label>Correo: </label>
+                </div>
+                <div class="col-6">
+                    <input type="email" class="form-control">
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-2">
+                    <label>Origen: </label>
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-2">
+                    <label>Destino: </label>
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-2">
+                    <label>Salida: </label>
+                </div>
+                <div class="col-4">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-2">
+                    <label>Llegada: </label>
+                </div>
+                <div class="col-4">
+                    <input type="date" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+            <div class="row g-3">
+                <div class="col-3">
+                <label>Transporte:</label>
+                </div>
+                <div class="col-3">
+                <select class="form-control" id="transp">
+                    <option>Uber</option>
+                    <option>Didi</option>
+                    <option>Corporativo</option>
+                </select>
+                </div>
+
+                <div class="col-3">
+                <label>Alojamiento:</label>
+                </div>
+                <div class="col-3">
+                <select class="form-control" id="transp">
+                    <option>Hotel Marriot</option>
+                    <option>Hotel Fiesta Inn</option>
+                    <option>City Express</option>
+                </select>
+                </div>
+            </div>
+            </div>
+
+            <div class="form-control">
+                <label>Comentarios</label>
+                <textarea class="form-control" id="comentario"></textarea>
+            </div>
+
+            <div class="text-center">
+            <button class="btn btn-success">Registrar</button>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

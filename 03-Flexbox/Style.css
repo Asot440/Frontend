@@ -1,0 +1,22 @@
+.contenedor{
+    background-color: darkblue;
+    color: white;
+    width: 80%;
+    border: solid thick gray;
+    border-radius: 8px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja label{
+    flex-basis: 150px;
+}

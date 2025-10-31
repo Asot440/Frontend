@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Carrusel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </header>
+    <body>
+        <div class="container-fluid">
+            <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" class="active"></button>
+                    <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" class="active"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="Fondos/Paisaje1.jpg" class="d-block w-100" alt="X">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Vista del club de Golf</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reiciendis sapiente nisi inventore sequi eius. Explicabo ea, labore pariatur autem odio quis eum voluptas aspernatur magnam omnis magni nobis vel.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="Fondos/Paisaje2.jpg" class="d-block w-100" alt="X">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Atardecer en el lago</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="Fondos/Paisaje3.jpg" class="d-block w-100" alt="X">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Atardecer en la playa</h5>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Previo</span>
+                    </button>
+                    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--Carrusel viajes-->
+
+            <div id="carrusel2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="Imagenes/Tokyo.jpg" class="d-block w-100" alt="X">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Tokyo</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reiciendis sapiente nisi inventore sequi eius. Explicabo ea, labore pariatur autem odio quis eum voluptas aspernatur magnam omnis magni nobis vel.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
